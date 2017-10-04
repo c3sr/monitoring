@@ -1,7 +1,15 @@
 package monitors
 
-import "github.com/gbbr/memstats"
+import (
+	"github.com/gbbr/memstats"
+	"github.com/rai-project/config"
+)
 
 func init() {
-	memstats.Serve()
+	config.AfterInit(func() {
+		if !memberQ(Config.Monitors, "memstats") {
+			return
+		}
+		memstats.Serve()
+	})
 }
