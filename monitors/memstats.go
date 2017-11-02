@@ -10,6 +10,6 @@ func init() {
 		if !memberQ(Config.Monitors, "memstats") {
 			return
 		}
-		memstats.Serve()
+		go memstats.Serve()
 	})
 }

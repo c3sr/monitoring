@@ -18,6 +18,7 @@ var (
 	DefaultMonitors = []string{
 		"pprof",
 		// "tracing",
+		"expvar",
 		"gops",
 		"memory",
 	}
