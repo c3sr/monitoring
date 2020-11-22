@@ -2,7 +2,7 @@ package monitors
 
 import (
 	"github.com/google/gops/agent"
-	"github.com/rai-project/config"
+	"github.com/c3sr/config"
 )
 
 func init() {

@@ -2,7 +2,7 @@ package monitors
 
 import (
 	"github.com/gbbr/memstats"
-	"github.com/rai-project/config"
+	"github.com/c3sr/config"
 )
 
 func init() {

@@ -1,8 +1,8 @@
 package monitors
 
 import (
-	"github.com/rai-project/config"
-	"github.com/rai-project/logger"
+	"github.com/c3sr/config"
+	"github.com/c3sr/logger"
 )
 
 var (

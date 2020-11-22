@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/prometheus/client_golang/prometheus"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
 )
 
 // see https://github.com/tankbusta/nvidia_exporter/blob/master/nvidia_exporter.go
