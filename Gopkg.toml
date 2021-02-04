@@ -30,20 +30,20 @@
   name = "github.com/bugsnag/osext"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/c3sr/config"
+  version = "0.1.0"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/c3sr/logger"
+  version = "0.1.0"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/c3sr/nvidia-smi"
+  version = "0.1.0"
 
 [[constraint]]
-  branch = "master"
   name = "github.com/c3sr/vipertags"
+  version = "0.1.0"
 
 [[constraint]]
   branch = "master"
