@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/bugsnag/osext"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	"github.com/c3sr/config"
 )
 
